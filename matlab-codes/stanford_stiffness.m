@@ -21,7 +21,7 @@ tou6 = 7;
 tou = [tou1; tou2; tou3; tou4; tou5; tou6];
 
 % Angles - theta
-t = stanf.theta;
+t = stanf.alpha;
 t1 = t(1);
 t2 = t(2);
 t3 = t(3);
@@ -87,15 +87,15 @@ new = transpose(del_x) * del_x;
 
 % Finding out the eigen values from Force Ellipsoid
 B = transpose(Comp_matrix) * Comp_matrix;
-[V, D] = eig(new);
+[V, D] = eig(B);
 disp("Eigen Values:");
-disp(eig(new));
+disp(eig(B));
 disp("Eigen Vectors of C^T*C:");
 display(V)
 disp("del_x^T * C^T * C * del_x = ");
-disp(new)
-lambda1 = max(eig(new));
-lambda2 = min(eig(new));
+disp(B)
+lambda1 = max(eig(B));
+lambda2 = min(eig(B));
 display(lambda1)
 display(lambda2)
 
@@ -108,3 +108,4 @@ ellipsoid(ax1,major_axis,minor_axis,0,2,1,1,50)
 % ellipsoid(1, 1, 1, major_axis, minor_axis,1, 50)
 axis equal
 title('Force Ellipsoid constituted by Stiffness of Stanford Manipulator')
+
