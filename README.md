@@ -1,6 +1,6 @@
 # Stanford-Stiffness-Manipulator
 
-Done By: 
+## Done By: 
 - Gangi Sravan Kumar Yadav - 123012010
 - Karthik Mothiki - 123012019
 - Pranav ANV - 123012030
