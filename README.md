@@ -10,6 +10,7 @@ After obtaining the forward kinematics, we need to find the Jacobian matrix. By 
 
 ## Outputs:
 
+### stiffness_stanford.m
 After executing the stiffness_stanford.m code this will be the output
 
 ```
@@ -108,4 +109,12 @@ lambda2 =
    2.3430e+09
 
 ```
+
+### Simulink Video:
+
+
+https://user-images.githubusercontent.com/62557178/205236577-a0712b32-8e06-4577-b5e2-bd4ead6a4dfc.mp4
+
+### Force Ellipsoid:
+![force_ellipsoid](https://user-images.githubusercontent.com/62557178/205236717-ae95c26a-c945-4f46-8606-890256429195.png)
 
