@@ -1,5 +1,10 @@
 # Stanford-Stiffness-Manipulator
 
+Done By: 
+- Gangi Sravan Kumar Yadav - 123012010
+- Karthik Mothiki - 123012019
+- Pranav ANV - 123012030
+
 ## Stanford Manipulator
 Stanford’s arm is an industrial robot with six degrees of freedom, designed in 1969. The Stanford’s arm is a serial manipulator whose kinematic chain consists of two revolute joints at the base, a prismatic joint, and a spherical joint. Because it includes several kinematic pairs, it is often used as an educational example in robot kinematics.
 
