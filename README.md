@@ -10,6 +10,8 @@ After obtaining the forward kinematics, we need to find the Jacobian matrix. By 
 
 ## Outputs:
 
+After executing the stiffness_stanford.m code this will be the output
+
 ```
 >>>stiffness_stanford.m
 
